@@ -7,8 +7,7 @@
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js'",
     "dev": "concurrently \"npm start\npm run client\"",
-    "build":"npm install  && npm install --prefix frontend && npm run build --prefix frontend"
-
+    "build": "npm install  && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "MD Aarif Raza",
   "license": "ISC",
@@ -23,10 +22,10 @@
     "express-async-handler": "^1.2.0",
     "install": "^0.13.0",
     "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.5.1",
     "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
-    "concurrently": "^8.2.0",
-    "mongoose": "^7.3.1"
+    "concurrently": "^8.2.0"
   }
 }
