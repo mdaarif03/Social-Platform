@@ -1,0 +1,49 @@
+.title {
+  font-size: 45px;
+}
+
+.subtitle {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.intro-text {
+  width: 100%;
+  text-align: center;
+}
+
+.main {
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../../bagroundnotes.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.buttonContainer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.landingbutton {
+  width: 110px;
+  height: 40px;
+}
+
+@media only screen and(main-width:1200px) {
+  .buttonContainer {
+    padding: 0 40px;
+  }
+
+  .title {
+    padding: 0 45px;
+  }
+
+  .landingbutton {
+    width: 70px;
+    height: 25px;
+  }
+
+}
