@@ -7,7 +7,7 @@
     "start": "nodemon backend/server.js",
     "start-server": "nodemon server.js --ignore './frontend/'",
     "dev": "concurrently \"npm start\npm run client\"",
-    "build":"npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+    "build":"npm install  && npm install --prefix frontend && npm run build --prefix frontend"
 
   },
   "author": "MD Aarif Raza",
