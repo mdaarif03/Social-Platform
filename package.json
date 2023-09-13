@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon backend/server.js",
-    "start-server": "nodemon server.js --ignore './frontend/'",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js'",
     "dev": "concurrently \"npm start\npm run client\"",
     "build":"npm install  && npm install --prefix frontend && npm run build --prefix frontend"
 
